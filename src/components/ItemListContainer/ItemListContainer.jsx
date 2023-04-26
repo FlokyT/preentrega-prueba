@@ -3,6 +3,7 @@ import { ItemList } from '../ItemList/ItemList';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
+
 const BDD = [
   {
       "id": 1,
@@ -67,9 +68,8 @@ export const ItemListContainer = () => {
     })
 
     promesa(true)
-    .then(productos => {
-      const items = <ItemList productos={productos}/> 
-      setProductos(items)
+    .then(productos => {      
+      setProductos(productos)
     })
     .catch(error => console.error(error))
 
@@ -77,7 +77,9 @@ export const ItemListContainer = () => {
   }, [])
   return (
     <div className='row'>
-      {productos}
+      
+      <ItemList/>
+
       </div>
   )
 }
