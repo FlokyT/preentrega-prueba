@@ -55,7 +55,7 @@ const BDD = [
 
 export const ItemListContainer = () => {
 
-  const [productos, setProductos] = useEffect ([])
+  const [productos, setProductos] = useState ([])
 
   useEffect(() => {
     const promesa = (condicional) => new Promise((resolve,reject) => {
@@ -77,8 +77,9 @@ export const ItemListContainer = () => {
   }, [])
   return (
     <div className='row'>
-      
-      <ItemList/>
+
+<ItemList productos={productos} />
+
 
       </div>
   )
