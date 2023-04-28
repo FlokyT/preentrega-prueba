@@ -12,7 +12,7 @@ const BDD = [
       "Plataforma": "Pc",
       "precio": 500,
       "stock": 150,
-      "img": "img/ark.jpg"
+      "img": "img/pc/ark.jpg"
   },
   {
       "id": 2,
@@ -21,7 +21,7 @@ const BDD = [
       "Plataforma": "Pc",
       "precio": 1500,
       "stock": 100,
-      "img": "img/pz.jpg"
+      "img": "img/pc/pz.jpg"
   },
   {
       "id": 3,
@@ -30,7 +30,7 @@ const BDD = [
       "Plataforma": "Pc",
       "precio": 4000,
       "stock": 150,
-      "img": "img/reddead.jpg"
+      "img": "img/pc/reddead.jpg"
   },
   {
       "id": 4,
@@ -39,7 +39,7 @@ const BDD = [
       "Plataforma": "Pc",
       "precio": 3500,
       "stock": 100,
-      "img": "img/rust.jpg"
+      "img": "img/pc/rust.jpg"
   },
   {
       "id": 5,
@@ -48,7 +48,7 @@ const BDD = [
       "Plataforma": "Pc",
       "precio": 2100,
       "stock": 150,
-      "img": "img/son_of.jpg"
+      "img": "img/pc/son_of.jpg"
   }
   
 ]

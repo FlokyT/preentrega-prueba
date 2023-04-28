@@ -11,7 +11,8 @@ export const Item = ({ item }) => {
       <p className="card-text">Precio: ${item.precio}</p>
       <p className="card-text">Stock: {item.stock}</p>
       <p className="card-text">{item.plataforma}</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
+      <p className="card-text">{item.descripcion}</p>
+      <a href="#" className="btn btn-primary">Comprar</a>
     </div>
   </div>
   )
