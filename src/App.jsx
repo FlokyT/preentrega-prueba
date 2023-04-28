@@ -12,13 +12,13 @@ function App() {
   return (
     <div>
 
-      
+      <BrowserRouter>
 
       <NavBar/>
       
       <ItemListContainer/>
 
-            
+      </BrowserRouter>
 
       
     </div>  
